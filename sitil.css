@@ -1,0 +1,141 @@
+
+
+.ayrac
+{ font-size: 20px;
+    margin: 0px 20px;
+    color: #ffff;
+
+}
+.nav-bg
+{
+    background-color: rgba(150, 150, 150, 0.386);
+}
+.header-yuk
+{ height: calc(50vh-70px);
+
+}
+.sayfa-baslik h3{
+    color: #f4b70b;
+    font-weight: bold;
+
+}
+.sayfa-baslik p
+{
+    color: #ffff;
+    font-weight: bold;
+}
+.ust-kisim {
+    background-image: url(resimler/arkaplanresmi.jpeg);
+    background-repeat: no-repeat; /* Resmin tekrar etmesini engeller */
+    background-size: cover; /* Resmi alanın tamamını kaplayacak şekilde ayarlar */
+    background-position: center center; /* Resmi merkeze hizalar */
+    height: 100vh; /* Yüksekliği pencere boyutuna eşit yapar */
+    width: 100%; /* Genişliği tam genişlikte yapar */
+    background-attachment: fixed;/*paralax efekti*/
+
+}
+.ust-kisim-sayfalar{
+    background-image: url(resimler/ust-bg-2.jpg);
+    background-repeat: no-repeat; /* Resmin tekrar etmesini engeller */
+    background-size: cover; /* Resmi alanın tamamını kaplayacak şekilde ayarlar */
+    background-position: center center; /* Resmi merkeze hizalar */
+    height: 50vh; /* Yüksekliği pencere boyutuna eşit yapar */
+    width: 100%; /* Genişliği tam genişlikte yapar */
+    background-attachment: fixed;/*paralax efekti*/
+
+}
+.nav-item-a
+{
+    color: #ffff;
+    font-size: 16px;
+    font-weight: bold;
+}
+.nav-item-a:hover
+{
+    color: #f4b70b;
+}
+/* Hamburger Menü İkonu (Beyaz) */
+.navbar-toggler
+{
+    border: 1px solid black;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-list' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Medya Sorgusu (Mobil Uyum) */
+@media screen and (max-width: 992px) {
+    .ayrac {
+        display: none; /* Ayraçlar mobilde gizlenir */
+    }
+    .nav-item:hover {
+        background-color: black; /* Hover sırasında arka plan siyah olur */
+    }
+}
+.bosluk
+{
+    margin-top: 100px;
+}
+/*söz kısmı*/
+.söz
+{ height: 60px;
+
+}
+.tirnak
+{
+    color: #f4b70b;
+    font-size: 20px;
+    font-weight: bold;
+}
+/*projeler başlıgı*/
+.projeler
+{
+    background-color: #f4b70b;
+}
+  
+/*çalışanlar*/
+
+
+
+/*hobilerim*/
+.hobiler {
+    transition: all 0.3s ease; /* Hover sırasında geçişin daha akıcı olması için */
+  }
+  
+  .hobiler:hover {
+    border: 1px solid gray; /* Hover sırasında gri kenarlık ekleniyor */
+    cursor: pointer; /* Hover sırasında işaretçi değişiyor */
+    transform: scale(1.05); /* Hover sırasında hafif büyütme efekti */
+  }
+  
+/*fotter kısmı*/
+.footer
+{
+    background-color:#2C3E50;
+    height: 300px;
+    color: #95a5a6;
+    font-size: 15px;
+}
+.footer-sutun
+{
+    height: 300px;
+}
+
+/*başarılar sayfası*/
+.calisma
+{
+    height: 150px;
+}
+/*blog sayfası*/
+.devam a:hover
+{ color: black !important;
+
+}
+/*iletişim*/
+.simgeler
+{
+    font-size: 16px;
+}
